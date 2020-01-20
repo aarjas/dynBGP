@@ -1,0 +1,2 @@
+# dynBGP
+ Dynamic heritability estimation
