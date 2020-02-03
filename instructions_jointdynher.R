@@ -30,7 +30,6 @@ for(i in 1:t)
 }
 
 Nsim=10000									#Sets the number of MCMC-iterations
-linit=t/3 									#Initial values for the length scales. t/3 is usually fine
 cores=parallel::detectCores() 					#Number of processor cores
 
 #The simulation function takes 5 parameters: the data, number of iterations, the eigenvectors and eigenvalues of the
